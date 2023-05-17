@@ -8,7 +8,7 @@ export const projectsData = [
     deploy: 'https://rick-morty-petri36.vercel.app/',
     github: 'https://github.com/Petri36/Rick-Morty',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <DiReact />, <SiRedux/>],
-    description: 'Aplicación administrativa con la simulación de compra de criptomonedas y precios actualizados.',
+    description: 'Aplicación que permite visualizar todos los personajes de la famosa serie, asi tambien como filtrarlos, añadirlos a favoritos y buscarlos.',
     newProject: false
   }, {
     id: 1,
@@ -17,7 +17,7 @@ export const projectsData = [
     deploy: 'https://pf-henry-one.vercel.app/',
     github: 'https://github.com/MichaellDev1/App-Pelis',
     technologies: [<DiHtml5 />, <DiCss3 />, <SiBootstrap/>, <DiJavascript />, <DiResponsive/>, <DiReact />, <DiMongodb/>],
-    description: 'Aplicación estilo netflix que muestra todas las peliculas.',
+    description: 'Aplicación que permite comprar y vender productos y servicios para mascotas.',
     newProject: true
   }, {
     id: 2,
@@ -26,7 +26,7 @@ export const projectsData = [
     deploy: 'https://github.com/Petri36/Pokemon',
     github: 'https://github.com/Petri36/Pokemon',
     technologies: [<DiHtml5 />, <DiCss3 />, <DiJavascript />, <DiSass/>, <SiPostgresql/>, <DiReact />, <SiRedux/>],
-    description: 'E-commerce que muestra diferentes productos con la posibilidad de agregar los mismos al carrito.',
+    description: 'Aplicación que permite visualizar pokemones, ya sea por busqueda, filtrado u ordenamiento, o simplemente crear uno nuevo.',
     newProject: false
   }
 ]
