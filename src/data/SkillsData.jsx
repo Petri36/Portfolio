@@ -6,124 +6,130 @@ import {
   DiSass,
   DiNodejsSmall,
   DiMongodb,
-  DiResponsive
-} from 'react-icons/di'
-import { SiTailwindcss, SiBootstrap, SiRedux, SiPostgresql, SiSpring } from 'react-icons/si'
-import { BsGit, BsFiletypeJava } from 'react-icons/bs'
-import { AiFillGithub } from 'react-icons/ai'
-import { FiGitlab } from 'react-icons/fi'
-import { GrMysql } from 'react-icons/gr'
+  DiResponsive,
+} from "react-icons/di";
+import {
+  SiTailwindcss,
+  SiBootstrap,
+  SiRedux,
+  SiPostgresql,
+  SiSpring,
+} from "react-icons/si";
+import { BsGit, BsFiletypeJava } from "react-icons/bs";
+import { AiFillGithub } from "react-icons/ai";
+import { FiGitlab } from "react-icons/fi";
+import { GrMysql } from "react-icons/gr";
 
 const skills = [
   {
-    skill: 'Html',
-    color: '#ff6a00',
+    skill: "Html",
+    color: "#ff6a00",
     icon: <DiHtml5 />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Css',
-    color: '#0072ff',
+    skill: "Css",
+    color: "#0072ff",
     icon: <DiCss3 />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Javascript',
-    color: '#d8ff00',
+    skill: "Javascript",
+    color: "#d8ff00",
     icon: <DiJavascript />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Sass',
-    color: '#d900ff',
+    skill: "Sass",
+    color: "#d900ff",
     icon: <DiSass />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Boostrap',
-    color: '#9100ff',
+    skill: "Boostrap",
+    color: "#9100ff",
     icon: <SiBootstrap />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Taildwind',
-    color: '#25bdf7',
+    skill: "Taildwind",
+    color: "#25bdf7",
     icon: <SiTailwindcss />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'React',
-    color: '#3ec8fd',
+    skill: "React",
+    color: "#3ec8fd",
     icon: <DiReact />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Redux',
-    color: '#3ec8fd',
+    skill: "Redux",
+    color: "#3ec8fd",
     icon: <SiRedux />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Git',
-    color: '#ff3b00',
+    skill: "Git",
+    color: "#ff3b00",
     icon: <BsGit />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'GitLab',
-    color: '#ff3b00',
+    skill: "GitLab",
+    color: "#ff3b00",
     icon: <FiGitlab />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'GitHub',
-    color: '#ffebeb',
+    skill: "GitHub",
+    color: "#ffebeb",
     icon: <AiFillGithub />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Responsive',
-    color: '#005c83',
+    skill: "Responsive",
+    color: "#005c83",
     icon: <DiResponsive />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Node js',
-    color: '#019722',
+    skill: "Node js",
+    color: "#019722",
     icon: <DiNodejsSmall />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Mongo Db',
-    color: '#04ff00',
+    skill: "Mongo Db",
+    color: "#04ff00",
     icon: <DiMongodb />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'My Sql',
-    color: '#005c83',
+    skill: "My Sql",
+    color: "#005c83",
     icon: <GrMysql />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Postgre SQL',
-    color: '#005c83',
+    skill: "Postgre SQL",
+    color: "#005c83",
     icon: <SiPostgresql />,
-    inProcess: false
+    inProcess: false,
   },
   {
-    skill: 'Java',
-    color: '#005c83',
-    icon: <BsFiletypeJava/>,
-    inProcess: true
+    skill: "Java",
+    color: "#005c83",
+    icon: <BsFiletypeJava />,
+    inProcess: true,
   },
   {
-    skill: 'Spring',
-    color: '#005c83',
-    icon: <SiSpring/>,
-    inProcess: true
-  }
-]
+    skill: "Spring",
+    color: "#005c83",
+    icon: <SiSpring />,
+    inProcess: true,
+  },
+];
 
 export {
   skills,
@@ -137,5 +143,5 @@ export {
   DiResponsive,
   DiSass,
   SiPostgresql,
-  SiRedux
-}
+  SiRedux,
+};
