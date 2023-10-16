@@ -19,6 +19,7 @@ import { BsGit, BsFiletypeJava } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { FiGitlab } from "react-icons/fi";
 import { GrMysql } from "react-icons/gr";
+import { FaDocker } from "react-icons/fa"
 
 const skills = [
   {
@@ -115,6 +116,12 @@ const skills = [
     skill: "Postgre SQL",
     color: "#005c83",
     icon: <SiPostgresql />,
+    inProcess: false,
+  },
+  {
+    skill: "Docker",
+    color: "#005c83",
+    icon: <FaDocker />,
     inProcess: false,
   },
   {
