@@ -17,7 +17,7 @@ export const projectsData = [
     title: "SplitIt",
     image: "https://res.cloudinary.com/deve27qy9/image/upload/fl_preserve_transparency/v1764080010/splitit.jpg?_s=public-apps",
     deploy: "https://splitit-pi.vercel.app/",
-    github: "",
+    github: "https://github.com/Petri36/SplitIt",
     technologies: [
       <DiHtml5 />,
       <DiCss3 />,
