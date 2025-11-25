@@ -14,6 +14,22 @@ import {
 export const projectsData = [
   {
     id: 0,
+    title: "SplitIt",
+    image: "/splitit.png",
+    deploy: "https://splitit-pi.vercel.app/",
+    github: "",
+    technologies: [
+      <DiHtml5 />,
+      <DiCss3 />,
+      <DiJavascript />,
+    ],
+    description:
+      "Aplicación web para dividir gastos con amigos de forma rápida y simple, ideal para comidas, viajes y juntadas.",
+    newProject: true,
+  },
+
+  {
+    id: 1,
     title: "Rick & Morty",
     image:
       "https://res.cloudinary.com/deve27qy9/image/upload/v1684276477/R_M_lkmoin.png",
@@ -27,9 +43,10 @@ export const projectsData = [
       <SiRedux />,
     ],
     description:
-      "Aplicación que permite visualizar todos los personajes de la famosa serie, asi tambien como filtrarlos, añadirlos a favoritos y buscarlos.",
+      "Aplicación que permite visualizar todos los personajes de la serie, filtrarlos, añadirlos a favoritos y buscarlos.",
     newProject: false,
   },
+
   {
     id: 2,
     title: "Pokemon App",
@@ -47,11 +64,12 @@ export const projectsData = [
       <SiRedux />,
     ],
     description:
-      "Aplicación que permite visualizar pokemones, ya sea por busqueda, filtrado u ordenamiento, o simplemente crear uno nuevo.",
+      "Aplicación que permite visualizar pokémones, buscarlos, filtrarlos, ordenarlos o crear uno nuevo.",
     newProject: false,
   },
+
   {
-    id: 1,
+    id: 3,
     title: "Pets America",
     image:
       "https://res.cloudinary.com/deve27qy9/image/upload/v1684276635/petsamerica_y8cg39.png",
@@ -68,6 +86,6 @@ export const projectsData = [
     ],
     description:
       "Aplicación que permite comprar y vender productos y servicios para mascotas.",
-    newProject: true,
+    newProject: false,
   },
 ];
