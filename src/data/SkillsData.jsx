@@ -7,7 +7,10 @@ import {
   DiNodejsSmall,
   DiMongodb,
   DiResponsive,
+  DiPhp,
+  DiWordpress,
 } from "react-icons/di";
+
 import {
   SiTailwindcss,
   SiBootstrap,
@@ -15,11 +18,12 @@ import {
   SiPostgresql,
   SiSpring,
 } from "react-icons/si";
+
 import { BsGit, BsFiletypeJava } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
 import { FiGitlab } from "react-icons/fi";
 import { GrMysql } from "react-icons/gr";
-import { FaDocker } from "react-icons/fa"
+import { FaDocker } from "react-icons/fa";
 
 const skills = [
   {
@@ -66,7 +70,7 @@ const skills = [
   },
   {
     skill: "Redux",
-    color: "#3ec8fd",
+    color: "#764abc",
     icon: <SiRedux />,
     inProcess: false,
   },
@@ -114,25 +118,39 @@ const skills = [
   },
   {
     skill: "Postgre SQL",
-    color: "#005c83",
+    color: "#336791",
     icon: <SiPostgresql />,
     inProcess: false,
   },
   {
     skill: "Docker",
-    color: "#005c83",
+    color: "#0db7ed",
     icon: <FaDocker />,
     inProcess: false,
   },
+
+  {
+    skill: "PHP",
+    color: "#777bb3",
+    icon: <DiPhp />,
+    inProcess: false,
+  },
+  {
+    skill: "WordPress",
+    color: "#21759b",
+    icon: <DiWordpress />,
+    inProcess: false,
+  },
+
   {
     skill: "Java",
-    color: "#005c83",
+    color: "#5382a1",
     icon: <BsFiletypeJava />,
     inProcess: true,
   },
   {
     skill: "Spring",
-    color: "#005c83",
+    color: "#6db33f",
     icon: <SiSpring />,
     inProcess: true,
   },
@@ -151,4 +169,6 @@ export {
   DiSass,
   SiPostgresql,
   SiRedux,
+  DiPhp,
+  DiWordpress,
 };
