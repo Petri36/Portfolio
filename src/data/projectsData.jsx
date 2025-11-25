@@ -15,7 +15,7 @@ export const projectsData = [
   {
     id: 0,
     title: "SplitIt",
-    image: "/splitit.png",
+    image: "https://asset.cloudinary.com/deve27qy9/6b98235ddd543621724fd84f737ea00e",
     deploy: "https://splitit-pi.vercel.app/",
     github: "",
     technologies: [
